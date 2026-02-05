@@ -17,7 +17,6 @@ Output: "a beginners guide to word embedding with gensim wordvec model using mac
 - **LSTM-based Architecture**: 2-layer LSTM network with dropout for regularization
 - **Word Embeddings**: 200-dimensional word embeddings
 - **Early Stopping**: Prevents overfitting with patience-based early stopping
-- **GPU Support**: Automatically utilizes CUDA if available
 - **Live Text Generation**: Real-time word-by-word text generation with visual feedback
 - **Top-K Predictions**: Can return multiple prediction candidates
 
@@ -45,7 +44,7 @@ Training Samples: 46,700 sequences
 
 ## 📊 Dataset
 
-The model is trained on `medium_data.csv`, which contains articles from Medium publications including:
+The model is trained on [`medium_data.csv`](https://github.com/bedigambar/Next-Word-Predictor-LSTM/blob/main/medium_data.csv), which contains articles from Medium publications including:
 - Article titles and subtitles
 - Metadata (claps, responses, reading time)
 - Publication dates
@@ -166,13 +165,12 @@ Next-Word-Predictor-LSTM/
 
 ## 📜 License
 
-This project is open source and available for educational purposes.
+This project is open source and available for educational purposes [LICENSE](https://github.com/bedigambar/Next-Word-Predictor-LSTM/blob/main/LICENSE)
 
 ## 🙏 Acknowledgments
 
-- Dataset sourced from Medium articles
+- Dataset sourced from [Medium articles](https://github.com/bedigambar/Next-Word-Predictor-LSTM/blob/main/medium_data.csv)
 - Built with PyTorch deep learning framework
-- Inspired by natural language processing research
 
 ---
 
