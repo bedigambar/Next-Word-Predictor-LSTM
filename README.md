@@ -19,6 +19,7 @@ Output: "a beginners guide to word embedding with gensim wordvec model using mac
 - **Early Stopping**: Prevents overfitting with patience-based early stopping
 - **Live Text Generation**: Real-time word-by-word text generation with visual feedback
 - **Top-K Predictions**: Can return multiple prediction candidates
+- **Complete Sentence Generation**: Produces a full coherent sentence by iteratively predicting and appending words
 
 ## 📋 Requirements
 
@@ -144,6 +145,7 @@ class NextWordLSTM(nn.Module):
 - Cleans and tokenizes input text
 - Takes last SEQ_LENGTH words
 - Returns top-K predicted words with softmax probabilities
+- Produces a full coherent sentence by iteratively predicting and appending words
 
 ## 📝 File Structure
 
